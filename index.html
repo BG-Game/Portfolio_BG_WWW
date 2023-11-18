@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Портфолио</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="icon" href="./img/Logo.ico" type="image/x-ico">
+</head>
+
+<body>
+
+  <div class="bg-1" id="Main">
+    <div class="container">
+      <header class="anim anim__slide__up">
+        <img src="./img/Logo.svg" alt="Logo">
+        <nav>
+          <a href="#Main">Главная</a>
+          <a href="#About_me">Обо мне</a>
+          <a href="#Technology">технологии</a>
+          <a href="#My_works">Мои работы</a>
+          <img src="./img/Burger-1.svg" alt="Burger" onclick="trigger_burger(this)">
+        </nav>
+      </header>
+      <nav id="burger_nav" class="display_none anim anim__slide__left">
+        <a href="#Main">Главная</a>
+        <a href="#About_me">Обо мне</a>
+        <a href="#Technology">технологии</a>
+        <a href="#My_works">Мои работы</a>
+      </nav>
+      <div class="data">
+        <h1 class="anim anim__slide__left">Богдан</h1>
+        <h1 class="anim anim__slide__left">Гамбаль</h1>
+        <div class="h1_red tar anim anim__slide__right">UI / UX Designer</div>
+        <p class="tar anim anim__slide__right">Занимаюсь разработкой сайтов и графическим дизайном</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="bg-2" id="About_me">
+    <div class="container">
+      <div class="h2_red head-container anim anim__slide__left">Обо мне</div>
+      <div class="data">
+        <h2 class="w75per mt24 anim anim__slide__left">Привет! Меня зовут Богдан. Являюсь профессиональным разработчиком
+          сайтов и графическим дизайнером с опытом работы более года.</h2>
+        <p class="w75per mt24 anim anim__slide__left">Специализируюсь на создании современных, функциональных и удобных
+          для пользователей сайтов, а также на разработке уникального и стильного графического дизайна.</p>
+        <h2 class="tar ml25per w75per mt48 anim anim__slide__right">Мои навыки</h2>
+        <p class="tar ml25per w75per mt102 mb102 anim anim__slide__right">Получил образование в сфере IT и постоянно
+          совершенствую свои навыки, проходя различные курсы и тренинги. В моем портфолио вы найдете примеры моих работ,
+          которые включают как готовые сайты, так и отдельные элементы графического дизайна. Буду рад сотрудничеству и
+          готов воплотить в жизнь ваши самые смелые идеи.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="bg-3" id="Technology">
+    <div class="container">
+      <div class="h2_red head-container anim anim__slide__left">Используемые технологии</div>
+      <div class="technology__container">
+        <div class="img__container">
+          <div class="img__data__container anim anim__slide__up">
+            <img src="./img/svg_ico/HTML_Ico.svg" alt="HTML">
+            <p>HTML</p>
+          </div>
+          <div class="img__data__container anim anim__slide__up">
+            <img src="./img/svg_ico/CSS_Ico.svg" alt="CSS">
+            <p>CSS</p>
+          </div>
+          <div class="img__data__container anim anim__slide__up">
+            <img src="./img/svg_ico/JS_Ico.svg" alt="JS">
+            <p>JS</p>
+          </div>
+          <div class="img__data__container anim anim__slide__up">
+            <img src="./img/svg_ico/PHP_Ico.svg" alt="PHP">
+            <p>PHP</p>
+          </div>
+          <div class="img__data__container anim anim__slide__up">
+            <img src="./img/svg_ico/Sass_Ico.svg" alt="Sass">
+            <p>Sass/Scss</p>
+          </div>
+          <div class="img__data__container anim anim__slide__up">
+            <img src="./img/svg_ico/Figma_Ico.svg" alt="Figma">
+            <p>Figma</p>
+          </div>
+          <div class="img__data__container anim anim__slide__up">
+            <img src="./img/svg_ico/VS_Code_Ico.svg" alt="VS Code">
+            <p>VS Code</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="bg-4" id="My_works">
+    <div class="container">
+      <div class="h2_red head-container anim anim__slide__left">Мои работы</div>
+      <div class="container_works">
+        <!-- Work 1 -->
+        <div class="flex works">
+          <div class="text__works anim anim__slide__left">
+            <div class="text__item_1">
+              <h2>Тип</h2>
+              <p>Макет (Figma)</p>
+              <img src="./img/Line.svg" alt="" class="line">
+            </div>
+            <div class="text__item_2">
+              <h2>Название</h2>
+              <p>Макет "Портфолио фотографа"</p>
+              <img src="./img/Line.svg" alt="" class="line">
+            </div>
+            <div class="text__item_3">
+              <h2>Ссылка</h2>
+              <a
+                href="https://www.figma.com/file/pU6Ko2ddkUVh1P2PFj8A1P/Job-3?type=design&node-id=0%3A1&mode=design&t=DL2t4LQ6XXNJBRhF-1">https://www.figma.com/file/pU6Ko2ddkUVh1P2PFj8A1P/Job-3?type=design&node-id=0%3A1&mode=design&t=DL2t4LQ6XXNJBRhF-1</a>
+              <img src="./img/Line.svg" alt="" class="line">
+            </div>
+          </div>
+          <img class="works__img anim anim__slide__right" src="./img/works_img/1.png" alt="works img">
+        </div>
+        <!-- Work 2  -->
+        <div class="flex works">
+          <div class="text__works anim anim__slide__left">
+            <div class="text__item_1">
+              <h2>Тип</h2>
+              <p>Макет (Figma)</p>
+              <img src="./img/Line.svg" alt="" class="line">
+            </div>
+            <div class="text__item_2">
+              <h2>Название</h2>
+              <p>Макет "Онлайн магазин суши"</p>
+              <img src="./img/Line.svg" alt="" class="line">
+            </div>
+            <div class="text__item_3">
+              <h2>Ссылка</h2>
+              <a
+                href="https://www.figma.com/file/ZAHqJTVKXg4BSBS2ewn0ba/Job-5?type=design&node-id=0%3A1&mode=design&t=ItuON5kHuVB3Yqaz-1">https://www.figma.com/file/ZAHqJTVKXg4BSBS2ewn0ba/Job-5?type=design&node-id=0%3A1&mode=design&t=ItuON5kHuVB3Yqaz-1</a>
+              <img src="./img/Line.svg" alt="" class="line">
+            </div>
+          </div>
+          <img class="works__img anim anim__slide__right" src="./img/works_img/2.png" alt="works img">
+        </div>
+        <!-- Work 3 -->
+        <div class="flex works">
+          <div class="text__works anim anim__slide__left">
+            <div class="text__item_1">
+              <h2>Тип</h2>
+              <p>Макет (Figma)</p>
+              <img src="./img/Line.svg" alt="" class="line">
+            </div>
+            <div class="text__item_2">
+              <h2>Название</h2>
+              <p>Макет "Портфолио гейм-дизайнера"</p>
+              <img src="./img/Line.svg" alt="" class="line">
+            </div>
+            <div class="text__item_3">
+              <h2>Ссылка</h2>
+              <a
+                href="https://www.figma.com/file/mNlQsjuCTuvNE8UCmrid3P/Job-2-Timur-Kudryavtsev-Design?type=design&node-id=0%3A1&mode=design&t=rlBCaDvE73tl8vQx-1">https://www.figma.com/file/mNlQsjuCTuvNE8UCmrid3P/Job-2-Timur-Kudryavtsev-Design?type=design&node-id=0%3A1&mode=design&t=rlBCaDvE73tl8vQx-1</a>
+              <img src="./img/Line.svg" alt="" class="line">
+            </div>
+          </div>
+          <img class="works__img anim anim__slide__right" src="./img/works_img/3.png" alt="works img">
+        </div>
+        <!-- Work 4 -->
+        <div class="flex works">
+          <div class="text__works anim anim__slide__left">
+            <div class="text__item_1">
+              <h2>Тип</h2>
+              <p>Макет (Figma)</p>
+              <img src="./img/Line.svg" alt="" class="line">
+            </div>
+            <div class="text__item_2">
+              <h2>Название</h2>
+              <p>Макет "Онлайн школа"</p>
+              <img src="./img/Line.svg" alt="" class="line">
+            </div>
+            <div class="text__item_3">
+              <h2>Ссылка</h2>
+              <a
+                href="https://www.figma.com/file/GX6gSYzgQFEtrVBUvU0BKa/Job-5-Learn-Online?type=design&node-id=0%3A1&mode=design&t=wEpgrQEP2puJyrKU-1">https://www.figma.com/file/GX6gSYzgQFEtrVBUvU0BKa/Job-5-Learn-Online?type=design&node-id=0%3A1&mode=design&t=wEpgrQEP2puJyrKU-1</a>
+              <img src="./img/Line.svg" alt="" class="line">
+            </div>
+          </div>
+          <img class="works__img anim anim__slide__right" src="./img/works_img/4.png" alt="works img">
+        </div>
+        <!-- Work 5 -->
+        <div class="flex works">
+          <div class="text__works anim anim__slide__left">
+            <div class="text__item_1">
+              <h2>Тип</h2>
+              <p>Макет (Figma)</p>
+              <img src="./img/Line.svg" alt="" class="line">
+            </div>
+            <div class="text__item_2">
+              <h2>Название</h2>
+              <p>Макет "Строительная компания"</p>
+              <img src="./img/Line.svg" alt="" class="line">
+            </div>
+            <div class="text__item_3">
+              <h2>Ссылка</h2>
+              <a
+                href="https://www.figma.com/file/i52PJW0OV3crFNGeQyb3Ea/Job-7?type=design&node-id=0%3A1&mode=design&t=h89M3fltFDzkumQV-1">https://www.figma.com/file/i52PJW0OV3crFNGeQyb3Ea/Job-7?type=design&node-id=0%3A1&mode=design&t=h89M3fltFDzkumQV-1</a>
+              <img src="./img/Line.svg" alt="" class="line">
+            </div>
+          </div>
+          <img class="works__img anim anim__slide__right" src="./img/works_img/5.png" alt="works img">
+        </div>
+        <!-- Work 6 -->
+        <div class="flex works">
+          <div class="text__works anim anim__slide__left">
+            <div class="text__item_1">
+              <h2>Тип</h2>
+              <p>Макет (Figma)</p>
+              <img src="./img/Line.svg" alt="" class="line">
+            </div>
+            <div class="text__item_2">
+              <h2>Название</h2>
+              <p>Макет "Онлайн доставка дронами"</p>
+              <img src="./img/Line.svg" alt="" class="line">
+            </div>
+            <div class="text__item_3">
+              <h2>Ссылка</h2>
+              <a
+                href="https://www.figma.com/file/lk2rTN8x36Iociyayg9T86/DroneDeliverer?type=design&node-id=0%3A1&mode=design&t=gx9dYTG30VgtQOwM-1">https://www.figma.com/file/lk2rTN8x36Iociyayg9T86/DroneDeliverer?type=design&node-id=0%3A1&mode=design&t=gx9dYTG30VgtQOwM-1</a>
+              <img src="./img/Line.svg" alt="" class="line">
+            </div>
+          </div>
+          <img class="works__img anim anim__slide__right" src="./img/works_img/6.png" alt="works img">
+        </div>
+        <!-- Work 7 -->
+        <div class="flex works">
+          <div class="text__works anim anim__slide__left">
+            <div class="text__item_1">
+              <h2>Тип</h2>
+              <p>Макет (Figma)</p>
+              <img src="./img/Line.svg" alt="" class="line">
+            </div>
+            <div class="text__item_2">
+              <h2>Название</h2>
+              <p>Макет "Юридические услуги"</p>
+              <img src="./img/Line.svg" alt="" class="line">
+            </div>
+            <div class="text__item_3">
+              <h2>Ссылка</h2>
+              <a
+                href="https://www.figma.com/file/rTmvIe8Fev3Iy2FiZYQYdV/Job-6?type=design&node-id=0%3A1&mode=design&t=RXyjDmGRJFjRCwS9-1">https://www.figma.com/file/rTmvIe8Fev3Iy2FiZYQYdV/Job-6?type=design&node-id=0%3A1&mode=design&t=RXyjDmGRJFjRCwS9-1</a>
+              <img src="./img/Line.svg" alt="" class="line">
+            </div>
+          </div>
+          <img class="works__img anim anim__slide__right" src="./img/works_img/7.png" alt="works img">
+        </div>
+        <!-- Work 8 -->
+        <div class="flex works">
+          <div class="text__works anim anim__slide__left">
+            <div class="text__item_1">
+              <h2>Тип</h2>
+              <p>Макет (Figma)</p>
+              <img src="./img/Line.svg" alt="" class="line">
+            </div>
+            <div class="text__item_2">
+              <h2>Название</h2>
+              <p>Макет "Онлайн турагентство"</p>
+              <img src="./img/Line.svg" alt="" class="line">
+            </div>
+            <div class="text__item_3">
+              <h2>Ссылка</h2>
+              <a
+                href="https://www.figma.com/file/m3duAYszouHw7wYoPs4MsA/Job-4?type=design&node-id=0%3A1&mode=design&t=A3Fk558AaVyVCLTs-1">https://www.figma.com/file/m3duAYszouHw7wYoPs4MsA/Job-4?type=design&node-id=0%3A1&mode=design&t=A3Fk558AaVyVCLTs-1</a>
+              <img src="./img/Line.svg" alt="" class="line">
+            </div>
+          </div>
+          <img class="works__img anim anim__slide__right" src="./img/works_img/8.png" alt="works img">
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- <div class="bg-4" id="Contacts">
+    <div class="container">
+      <div class="h2_red head-container anim anim__slide__left">Контакты</div>
+      <div class="data anim anim__slide__up">
+        <input type="text" name="text" placeholder="ИМЯ">
+        <input type="email" name="email" placeholder="ПОЧТА">
+        <input type="text" name="text" placeholder="СООБЩЕНИЕ">
+        <button type="submit anim anim__slide__up">Отправить</button>
+      </div>
+    </div>
+  </div> -->
+
+  <footer>
+    <img class="footer__logo" src="./img/Logo.svg" alt="Logo">
+    <nav>
+      <a href="#Main">Главная</a>
+      <a href="#About_me">Обо мне</a>
+      <a href="#Technology">технологии</a>
+      <a href="#My_works">Мои работы</a>
+    </nav>
+    <div class="contact">
+      <p></p>
+      <a href="https://vk.com/id326352900">
+        <img src="./img/VK.svg" alt="VK">
+      </a>
+      <a href="#">
+        <img src="./img/TG.svg" alt="TG">
+      </a>
+    </div>
+  </footer>
+
+  <script src="./js/animation.js"></script>
+  <script src="./js/script.js"></script>
+
+</body>
+
+</html>
